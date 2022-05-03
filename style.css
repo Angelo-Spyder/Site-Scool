@@ -92,7 +92,7 @@ body{
 /*Secundario*/
 
 .secundario{
-    background: linear-gradient( rgba(255, 255, 255, 0.151), rgba(38, 0, 255, 0.171));
+    background: linear-gradient( rgba(255, 255, 255, 0.151), rgba(20, 20, 20, 0.171));
     margin: 20px 0 0 0;
     padding: 80px;
 }
@@ -133,7 +133,7 @@ body{
 /* Rodape */
 .rodape{
     margin: -10px 0 0 0;
-    background: linear-gradient(90deg, rgb(31, 31, 31),rgba(0, 0, 0, 0.76));
+    background: linear-gradient(90deg, rgb(31, 31, 31),black);
     padding: 38px;
     text-align: center;
     color: white;
