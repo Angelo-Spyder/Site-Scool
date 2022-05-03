@@ -3,6 +3,8 @@
 body{
     background: rgba(0, 0, 0, 0.103);
 }
+
+/*Cabeçalho*/
 .cabecalho{
     display: flex;
     padding: 10px;
@@ -36,4 +38,24 @@ body{
     padding: 3px;
     color: rgb(0, 51, 53);
     cursor: pointer;
+}
+
+/* principal */
+
+.conteudo{
+    width: 100%;
+    margin: 10px 0;
+}
+.principal{
+    width: 100%;
+}
+.texto{
+    margin: 10px 0;
+    text-align: center;
+    color: #252525;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.subtitulo{
+    font-size: 30px;
 }
