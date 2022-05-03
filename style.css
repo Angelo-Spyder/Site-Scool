@@ -93,8 +93,8 @@ body{
 
 .secundario{
     background: linear-gradient( rgba(255, 255, 255, 0.151), rgba(38, 0, 255, 0.171));
-    margin: 20px 0;
-    padding: 30px;
+    margin: 20px 0 0 0;
+    padding: 80px;
 }
 
 .comprometimentos{
@@ -128,4 +128,18 @@ body{
     font-family: "Raleway", sans-serif;
     padding: 5px;
     font-weight: 600;
+}
+
+/* Rodape */
+.rodape{
+    margin: -10px 0 0 0;
+    background: linear-gradient(90deg, rgb(31, 31, 31),rgba(0, 0, 0, 0.76));
+    padding: 38px;
+    text-align: center;
+    color: white;
+}
+.titulo-rodape{
+    font-size: 28px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
 }
