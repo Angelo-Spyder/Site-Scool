@@ -31,7 +31,7 @@ function alterarImagens(){
             setInterval(() => {
                 img.classList.add("desaparecer");
                 bolinhas[position - 1].classList.remove("bolinha-escolhida")
-            }, 2100);
+            }, 2500);
             
             position = position + 1;
         }
