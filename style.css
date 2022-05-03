@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:wght@100&display=swap');
+body{
+    background: rgba(0, 0, 0, 0.103);
+}
+.cabecalho{
+    display: flex;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    justify-content: space-between;
+    background: #252525;
+    color: white;
+}
+.logo{
+    padding: 15px 0;
+    font-size: 25px;
+}
+.navegacao{
+    font-size: 20px;
+    width: 350px;
+    padding: 10px;
+}
+.lista{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.itens{
+    padding: 10px;
+    background: tomato;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.itens:hover{
+    padding: 3px;
+    color: rgb(0, 51, 53);
+    cursor: pointer;
+}
