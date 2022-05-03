@@ -153,4 +153,9 @@ body{
     .bloco{
         width: 100%;
     }
+    .desaparecer{
+        transition: 3s;
+        transform: translate(1em,0);
+        opacity: 0;
+    }
 }

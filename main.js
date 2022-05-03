@@ -30,7 +30,12 @@ function alterarImagens(){
             campoImagem.appendChild(img);
             setInterval(() => {
                 img.classList.add("desaparecer");
-                bolinhas[position - 1].classList.remove("bolinha-escolhida")
+                if(position == 0){
+                    bolinhas[position].classList.remove("bolinha-escolhida");
+                }else{
+                    bolinhas[position - 1].classList.remove("bolinha-escolhida");
+                };
+                
             }, 2500);
             
             position = position + 1;
