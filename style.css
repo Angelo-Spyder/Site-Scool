@@ -143,3 +143,14 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: bold;
 }
+
+/*Mobile*/
+
+@media screen and (max-width: 480px){
+    .comprometimentos{
+        width: 100%;
+    }
+    .bloco{
+        width: 100%;
+    }
+}
